@@ -14,7 +14,7 @@ app.use('/file', require('./routes/fileUploadRoute'))
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        msg: 'Welcome to File-Upload-S3, use this route for file Upload - /file/file-upload'
+        msg: 'Welcome to File-Upload-S3, use this route for file Upload - {base_URL}/file/file-upload'
     });
 });
 
