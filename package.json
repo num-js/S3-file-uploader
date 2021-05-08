@@ -1,0 +1,23 @@
+{
+  "name": "file-upload-s3",
+  "version": "1.0.0",
+  "description": "File Uploader to S3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "S3",
+    "file-upload"
+  ],
+  "author": "N_Ah",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.900.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.12.7"
+  }
+}
